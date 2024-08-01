@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+main {
+    flex: 1;
+    padding: 1em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form div {
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 0.5em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus {
+    border: 2px solid #4CAF50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+button {
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remover borda */
+    padding: 15px 20px; /* Espaçamento interno */
+    text-align: center; /* Centralizar texto */
+    text-decoration: none; /* Remover sublinhado */
+    display: inline-block; /* Exibir como bloco inline */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margens */
+    transition-duration: 0.4s; /* Duração da transição */
+    cursor: pointer; /* Cursor de ponteiro */
+    border-radius: 12px; /* Borda arredondada */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Sombra */
+}
+
+button:hover {
+    background-color: white; /* Cor de fundo ao passar o mouse */
+    color: #4CAF50; /* Cor do texto ao passar o mouse */
+    border: 2px solid #4CAF50; /* Borda ao passar o mouse */
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1em;
+}
+
