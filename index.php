@@ -32,6 +32,7 @@
                 <label for="quantidade">Quantidade em Estoque:</label>
                 <input type="number" id="quantidade" name="quantidade" required>
             </div>
+            
             <div>
                 <button type="submit">Cadastrar Produto</button>
             </div>
